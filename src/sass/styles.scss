@@ -1,0 +1,14 @@
+$body-color: aqua;
+
+body {
+  background-color:  $body-color;
+}
+
+.test {
+  width: 400px;
+  height: 100px;
+  display: grid;
+  transition: all .5s;
+  user-select: none;
+  background: linear-gradient(to left bottom, white, black);
+}
